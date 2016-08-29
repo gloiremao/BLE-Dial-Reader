@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/Users/mao/Desktop/BluetoothLE/Application/build/intermediates/exploded-aar/com.android.support/support-v13/24.1.1/jars/classes.jar"
+        jumboMode="false"
+        revision="24.0.1"
+        sha1="327f68d58bb39fb8b585150596b313541f8fdb87">
+        <dex dex="/Users/mao/Desktop/BluetoothLE/Application/build/intermediates/pre-dexed/debug/com.android.support-support-v13-24.1.1_bdccb0e3b353c2d1de08b9527daaae00bc17e352.jar" />
+    </item>
+    <item
+        jar="/Users/mao/.gradle/caches/modules-2/files-2.1/com.android.support/support-annotations/24.1.1/3af19f153122737b372622fa6c81dd11a1c6b999/support-annotations-24.1.1.jar"
+        jumboMode="false"
+        revision="24.0.1"
+        sha1="3af19f153122737b372622fa6c81dd11a1c6b999">
+        <dex dex="/Users/mao/Desktop/BluetoothLE/Application/build/intermediates/pre-dexed/debug/support-annotations-24.1.1_753c44f56bf22cbd5698faa6d34d13012ced6a54.jar" />
+    </item>
+    <item
+        jar="/Users/mao/Desktop/BluetoothLE/Application/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/24.1.1/jars/classes.jar"
+        jumboMode="false"
+        revision="24.0.1"
+        sha1="c936c1bd42f0c018c18920c7bec619ef056b24f8">
+        <dex dex="/Users/mao/Desktop/BluetoothLE/Application/build/intermediates/pre-dexed/debug/com.android.support-animated-vector-drawable-24.1.1_af970fe222e479b6047cd826ddee361ed719d7fc.jar" />
+    </item>
+    <item
+        jar="/Users/mao/Desktop/BluetoothLE/Application/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.1.1/jars/classes.jar"
+        jumboMode="false"
+        revision="24.0.1"
+        sha1="1256c10604bb098490eab070d76754ac5ceab35c">
+        <dex dex="/Users/mao/Desktop/BluetoothLE/Application/build/intermediates/pre-dexed/debug/com.android.support-appcompat-v7-24.1.1_fbe6df7cca065589023a7333dcac8adbacdc2898.jar" />
+    </item>
+    <item
+        jar="/Users/mao/Desktop/BluetoothLE/Application/build/intermediates/exploded-aar/com.android.support/support-v4/24.1.1/jars/libs/internal_impl-24.1.1.jar"
+        jumboMode="false"
+        revision="24.0.1"
+        sha1="f78c2f395cb096f9dc1dc07e729922b8fcd3c4f5">
+        <dex dex="/Users/mao/Desktop/BluetoothLE/Application/build/intermediates/pre-dexed/debug/internal_impl-24.1.1_4ba96fc7a0f9efc23e14397e2c554964fdc60a08.jar" />
+    </item>
+    <item
+        jar="/Users/mao/Desktop/BluetoothLE/Application/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/24.1.1/jars/classes.jar"
+        jumboMode="false"
+        revision="24.0.1"
+        sha1="f62e763609f65e47dc6c498760a4accf02776788">
+        <dex dex="/Users/mao/Desktop/BluetoothLE/Application/build/intermediates/pre-dexed/debug/com.android.support-support-vector-drawable-24.1.1_69f1dbb08785549d92f2f5a7fedde7784a94241d.jar" />
+    </item>
+    <item
+        jar="/Users/mao/Desktop/BluetoothLE/Application/build/intermediates/exploded-aar/com.android.support/support-v13/24.1.1/jars/libs/internal_impl-24.1.1.jar"
+        jumboMode="false"
+        revision="24.0.1"
+        sha1="ca74722504f90166103d01edcdfdb93192eb1cba">
+        <dex dex="/Users/mao/Desktop/BluetoothLE/Application/build/intermediates/pre-dexed/debug/internal_impl-24.1.1_526dbf32e286603ac7cbc55e3698c59a856dee4b.jar" />
+    </item>
+    <item
+        jar="/Users/mao/Desktop/BluetoothLE/Application/build/intermediates/exploded-aar/com.android.support/cardview-v7/24.1.1/jars/classes.jar"
+        jumboMode="false"
+        revision="24.0.1"
+        sha1="4add8aa95c9f4e9a2ad64b7e2bf08e97e28955c1">
+        <dex dex="/Users/mao/Desktop/BluetoothLE/Application/build/intermediates/pre-dexed/debug/com.android.support-cardview-v7-24.1.1_3f2555176f52ae67ae48c50af080a3b40007a0d3.jar" />
+    </item>
+    <item
+        jar="/Users/mao/Desktop/BluetoothLE/Application/build/intermediates/exploded-aar/com.android.support/support-v4/24.1.1/jars/classes.jar"
+        jumboMode="false"
+        revision="24.0.1"
+        sha1="6d7d803871e3203465f71a163e7af104f807b446">
+        <dex dex="/Users/mao/Desktop/BluetoothLE/Application/build/intermediates/pre-dexed/debug/com.android.support-support-v4-24.1.1_4ab39876cc28fe0fabfb1b2966a03bfdfc9126d8.jar" />
+    </item>
+
+</items>

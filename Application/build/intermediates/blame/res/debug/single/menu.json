@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/Users/mao/Desktop/BluetoothLE/Application/build/intermediates/res/merged/debug/menu/main.xml",
+        "source": "/Users/mao/Desktop/BluetoothLE/Application/src/main/res/menu/main.xml"
+    },
+    {
+        "merged": "/Users/mao/Desktop/BluetoothLE/Application/build/intermediates/res/merged/debug/menu/gatt_services.xml",
+        "source": "/Users/mao/Desktop/BluetoothLE/Application/src/main/res/menu/gatt_services.xml"
+    }
+]
