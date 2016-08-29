@@ -1,11 +1,11 @@
 [
     {
-        "merged": "/Users/mao/Desktop/BluetoothLE/Application/build/intermediates/res/merged/debug/layout/listitem_device.xml",
-        "source": "/Users/mao/Desktop/BluetoothLE/Application/src/main/res/layout/listitem_device.xml"
-    },
-    {
         "merged": "/Users/mao/Desktop/BluetoothLE/Application/build/intermediates/res/merged/debug/layout/notification_media_action.xml",
         "source": "/Users/mao/Desktop/BluetoothLE/Application/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.1.1/res/layout/notification_media_action.xml"
+    },
+    {
+        "merged": "/Users/mao/Desktop/BluetoothLE/Application/build/intermediates/res/merged/debug/layout/listitem_device.xml",
+        "source": "/Users/mao/Desktop/BluetoothLE/Application/src/main/res/layout/listitem_device.xml"
     },
     {
         "merged": "/Users/mao/Desktop/BluetoothLE/Application/build/intermediates/res/merged/debug/layout/abc_action_menu_layout.xml",

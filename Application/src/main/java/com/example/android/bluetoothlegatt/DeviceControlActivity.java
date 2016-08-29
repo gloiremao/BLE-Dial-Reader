@@ -55,6 +55,8 @@ public class DeviceControlActivity extends Activity {
     private TextView mConnectionState;
     private TextView mDataField;
     private TextView mReadingField;
+    private TextView mAngleField;
+    private TextView mBatteryField;
     private String mDeviceName;
     private String mDeviceAddress;
     private ExpandableListView mGattServicesList;
@@ -71,14 +73,15 @@ public class DeviceControlActivity extends Activity {
 
     private boolean isNotified = false;
     private Double readingValue = 0.0;
-    private Double angle1 = 0.0;
-    private Double angle2 = 0.0;
-    private Double angle3 = 0.0;
+    private int angle1 = 0;
+    private int angle2 = 0;
+    private int angle3 = 0;
     private Double battery_voltage = 0.0;
     private int time_interval = 0;
     private int trigger_flag = 0;
 
     private String[] unitLabel = {"mm","inch"};
+    private String unit_label = "mm";
 
     // Code to manage Service lifecycle.
     private final ServiceConnection mServiceConnection = new ServiceConnection() {
@@ -197,6 +200,8 @@ public class DeviceControlActivity extends Activity {
         mConnectionState = (TextView) findViewById(R.id.connection_state);
         mDataField = (TextView) findViewById(R.id.data_value);
         mReadingField = (TextView) findViewById(R.id.reading_value);
+        mAngleField = (TextView) findViewById(R.id.angle_value);
+        mBatteryField = (TextView) findViewById(R.id.battery_value);
 
         getActionBar().setTitle(mDeviceName);
         getActionBar().setDisplayHomeAsUpEnabled(true);
@@ -268,14 +273,24 @@ public class DeviceControlActivity extends Activity {
     private void displayData(String data) {
         if (data != null) {
             final String[] tmp = data.split(",");
+
             try {
                 this.readingValue = Double.parseDouble(tmp[1]);
+                this.angle1 = Integer.parseInt(tmp[4]);
+                this.angle2 = Integer.parseInt(tmp[5]);
+                this.angle3 = Integer.parseInt(tmp[6]);
+                this.battery_voltage = Double.parseDouble(tmp[7].substring(0,2));
                 int unit = Integer.parseInt(tmp[2]);
+                unit_label = unitLabel[unit];
                 //Log.d(TAG,"Unit:"+tmp[2]);
-                mReadingField.setText(this.readingValue.toString() + " " + unitLabel[unit]);
+                unit_label = unitLabel[unit];
             } catch (Exception e){
                 e.printStackTrace();
             }
+
+            mReadingField.setText( readingValue.toString() + " " + unit_label);
+            this.mAngleField.setText(String.format("%d,%d,%d",angle1,angle2,angle3));
+            this.mBatteryField.setText(String.format("%.1f volt",battery_voltage));
 
 
             //mDataField.setText(data);

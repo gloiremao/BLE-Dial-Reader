@@ -253,6 +253,8 @@
         
         
     </string>
+    <string name="label_angle">Angle:</string>
+    <string name="label_battery">Battery:</string>
     <string name="label_data">Data:</string>
     <string name="label_device_address">Device address:</string>
     <string name="label_dial_reading">Reading:</string>
