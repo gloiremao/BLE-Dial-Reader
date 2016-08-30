@@ -1,6 +1,6 @@
 [
     {
-        "outputFile": "/Users/mao/Desktop/BluetoothLE/Application/build/intermediates/res/merged/debug/values-v21/values-v21.xml",
+        "outputFile": "D:\\BLE-Dial-Reader\\Application\\build\\intermediates\\res\\merged\\debug\\values-v21\\values-v21.xml",
         "map": [
             {
                 "to": {
@@ -11,13 +11,13 @@
                     "endOffset": 96
                 },
                 "from": {
-                    "file": "/Users/mao/Desktop/BluetoothLE/Application/src/main/res/values-v21/base-colors.xml",
+                    "file": "D:\\BLE-Dial-Reader\\Application\\src\\main\\res\\values-v21\\base-colors.xml",
                     "position": {
                         "startLine": 20,
                         "startColumn": 4,
-                        "startOffset": 745,
+                        "startOffset": 765,
                         "endColumn": 45,
-                        "endOffset": 786
+                        "endOffset": 806
                     }
                 }
             },
@@ -30,13 +30,13 @@
                     "endOffset": 143
                 },
                 "from": {
-                    "file": "/Users/mao/Desktop/BluetoothLE/Application/src/main/res/values-v21/base-colors.xml",
+                    "file": "D:\\BLE-Dial-Reader\\Application\\src\\main\\res\\values-v21\\base-colors.xml",
                     "position": {
                         "startLine": 18,
                         "startColumn": 4,
-                        "startOffset": 647,
+                        "startOffset": 665,
                         "endColumn": 46,
-                        "endOffset": 689
+                        "endOffset": 707
                     }
                 }
             },
@@ -49,13 +49,13 @@
                     "endOffset": 194
                 },
                 "from": {
-                    "file": "/Users/mao/Desktop/BluetoothLE/Application/src/main/res/values-v21/base-colors.xml",
+                    "file": "D:\\BLE-Dial-Reader\\Application\\src\\main\\res\\values-v21\\base-colors.xml",
                     "position": {
                         "startLine": 19,
                         "startColumn": 4,
-                        "startOffset": 694,
+                        "startOffset": 713,
                         "endColumn": 50,
-                        "endOffset": 740
+                        "endOffset": 759
                     }
                 }
             },
@@ -68,7 +68,7 @@
                     "endOffset": 285
                 },
                 "from": {
-                    "file": "/Users/mao/Desktop/BluetoothLE/Application/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.1.1/res/values-v21/values-v21.xml",
+                    "file": "D:\\BLE-Dial-Reader\\Application\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.1.1\\res\\values-v21\\values-v21.xml",
                     "position": {
                         "startLine": 2,
                         "startColumn": 4,
@@ -87,7 +87,7 @@
                     "endOffset": 388
                 },
                 "from": {
-                    "file": "/Users/mao/Desktop/BluetoothLE/Application/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.1.1/res/values-v21/values-v21.xml",
+                    "file": "D:\\BLE-Dial-Reader\\Application\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.1.1\\res\\values-v21\\values-v21.xml",
                     "position": {
                         "startLine": 3,
                         "startColumn": 4,
@@ -106,7 +106,7 @@
                     "endOffset": 491
                 },
                 "from": {
-                    "file": "/Users/mao/Desktop/BluetoothLE/Application/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.1.1/res/values-v21/values-v21.xml",
+                    "file": "D:\\BLE-Dial-Reader\\Application\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.1.1\\res\\values-v21\\values-v21.xml",
                     "position": {
                         "startLine": 4,
                         "startColumn": 4,
@@ -125,7 +125,7 @@
                     "endOffset": 596
                 },
                 "from": {
-                    "file": "/Users/mao/Desktop/BluetoothLE/Application/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.1.1/res/values-v21/values-v21.xml",
+                    "file": "D:\\BLE-Dial-Reader\\Application\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.1.1\\res\\values-v21\\values-v21.xml",
                     "position": {
                         "startLine": 5,
                         "startColumn": 4,
@@ -144,7 +144,7 @@
                     "endOffset": 703
                 },
                 "from": {
-                    "file": "/Users/mao/Desktop/BluetoothLE/Application/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.1.1/res/values-v21/values-v21.xml",
+                    "file": "D:\\BLE-Dial-Reader\\Application\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.1.1\\res\\values-v21\\values-v21.xml",
                     "position": {
                         "startLine": 6,
                         "startColumn": 4,
@@ -163,7 +163,7 @@
                     "endOffset": 812
                 },
                 "from": {
-                    "file": "/Users/mao/Desktop/BluetoothLE/Application/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.1.1/res/values-v21/values-v21.xml",
+                    "file": "D:\\BLE-Dial-Reader\\Application\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.1.1\\res\\values-v21\\values-v21.xml",
                     "position": {
                         "startLine": 7,
                         "startColumn": 4,
@@ -182,7 +182,7 @@
                     "endOffset": 921
                 },
                 "from": {
-                    "file": "/Users/mao/Desktop/BluetoothLE/Application/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.1.1/res/values-v21/values-v21.xml",
+                    "file": "D:\\BLE-Dial-Reader\\Application\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.1.1\\res\\values-v21\\values-v21.xml",
                     "position": {
                         "startLine": 8,
                         "startColumn": 4,
@@ -201,7 +201,7 @@
                     "endOffset": 1030
                 },
                 "from": {
-                    "file": "/Users/mao/Desktop/BluetoothLE/Application/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.1.1/res/values-v21/values-v21.xml",
+                    "file": "D:\\BLE-Dial-Reader\\Application\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.1.1\\res\\values-v21\\values-v21.xml",
                     "position": {
                         "startLine": 9,
                         "startColumn": 4,
@@ -220,7 +220,7 @@
                     "endOffset": 1139
                 },
                 "from": {
-                    "file": "/Users/mao/Desktop/BluetoothLE/Application/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.1.1/res/values-v21/values-v21.xml",
+                    "file": "D:\\BLE-Dial-Reader\\Application\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.1.1\\res\\values-v21\\values-v21.xml",
                     "position": {
                         "startLine": 10,
                         "startColumn": 4,
@@ -239,7 +239,7 @@
                     "endOffset": 1248
                 },
                 "from": {
-                    "file": "/Users/mao/Desktop/BluetoothLE/Application/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.1.1/res/values-v21/values-v21.xml",
+                    "file": "D:\\BLE-Dial-Reader\\Application\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.1.1\\res\\values-v21\\values-v21.xml",
                     "position": {
                         "startLine": 11,
                         "startColumn": 4,
@@ -258,7 +258,7 @@
                     "endOffset": 1355
                 },
                 "from": {
-                    "file": "/Users/mao/Desktop/BluetoothLE/Application/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.1.1/res/values-v21/values-v21.xml",
+                    "file": "D:\\BLE-Dial-Reader\\Application\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.1.1\\res\\values-v21\\values-v21.xml",
                     "position": {
                         "startLine": 12,
                         "startColumn": 4,
@@ -277,7 +277,7 @@
                     "endOffset": 1458
                 },
                 "from": {
-                    "file": "/Users/mao/Desktop/BluetoothLE/Application/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.1.1/res/values-v21/values-v21.xml",
+                    "file": "D:\\BLE-Dial-Reader\\Application\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.1.1\\res\\values-v21\\values-v21.xml",
                     "position": {
                         "startLine": 13,
                         "startColumn": 4,
@@ -296,7 +296,7 @@
                     "endOffset": 1577
                 },
                 "from": {
-                    "file": "/Users/mao/Desktop/BluetoothLE/Application/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.1.1/res/values-v21/values-v21.xml",
+                    "file": "D:\\BLE-Dial-Reader\\Application\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.1.1\\res\\values-v21\\values-v21.xml",
                     "position": {
                         "startLine": 14,
                         "startColumn": 4,
@@ -316,7 +316,7 @@
                     "endOffset": 1732
                 },
                 "from": {
-                    "file": "/Users/mao/Desktop/BluetoothLE/Application/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.1.1/res/values-v21/values-v21.xml",
+                    "file": "D:\\BLE-Dial-Reader\\Application\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.1.1\\res\\values-v21\\values-v21.xml",
                     "position": {
                         "startLine": 15,
                         "startColumn": 4,
@@ -337,7 +337,7 @@
                     "endOffset": 1887
                 },
                 "from": {
-                    "file": "/Users/mao/Desktop/BluetoothLE/Application/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.1.1/res/values-v21/values-v21.xml",
+                    "file": "D:\\BLE-Dial-Reader\\Application\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.1.1\\res\\values-v21\\values-v21.xml",
                     "position": {
                         "startLine": 17,
                         "startColumn": 4,
@@ -357,7 +357,7 @@
                     "endOffset": 1992
                 },
                 "from": {
-                    "file": "/Users/mao/Desktop/BluetoothLE/Application/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.1.1/res/values-v21/values-v21.xml",
+                    "file": "D:\\BLE-Dial-Reader\\Application\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.1.1\\res\\values-v21\\values-v21.xml",
                     "position": {
                         "startLine": 19,
                         "startColumn": 4,
@@ -376,7 +376,7 @@
                     "endOffset": 2113
                 },
                 "from": {
-                    "file": "/Users/mao/Desktop/BluetoothLE/Application/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.1.1/res/values-v21/values-v21.xml",
+                    "file": "D:\\BLE-Dial-Reader\\Application\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.1.1\\res\\values-v21\\values-v21.xml",
                     "position": {
                         "startLine": 20,
                         "startColumn": 4,
@@ -395,7 +395,7 @@
                     "endOffset": 2214
                 },
                 "from": {
-                    "file": "/Users/mao/Desktop/BluetoothLE/Application/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.1.1/res/values-v21/values-v21.xml",
+                    "file": "D:\\BLE-Dial-Reader\\Application\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.1.1\\res\\values-v21\\values-v21.xml",
                     "position": {
                         "startLine": 21,
                         "startColumn": 4,
@@ -415,7 +415,7 @@
                     "endOffset": 2361
                 },
                 "from": {
-                    "file": "/Users/mao/Desktop/BluetoothLE/Application/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.1.1/res/values-v21/values-v21.xml",
+                    "file": "D:\\BLE-Dial-Reader\\Application\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.1.1\\res\\values-v21\\values-v21.xml",
                     "position": {
                         "startLine": 22,
                         "startColumn": 4,
@@ -436,7 +436,7 @@
                     "endOffset": 2502
                 },
                 "from": {
-                    "file": "/Users/mao/Desktop/BluetoothLE/Application/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.1.1/res/values-v21/values-v21.xml",
+                    "file": "D:\\BLE-Dial-Reader\\Application\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.1.1\\res\\values-v21\\values-v21.xml",
                     "position": {
                         "startLine": 24,
                         "startColumn": 4,
@@ -456,7 +456,7 @@
                     "endOffset": 2605
                 },
                 "from": {
-                    "file": "/Users/mao/Desktop/BluetoothLE/Application/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.1.1/res/values-v21/values-v21.xml",
+                    "file": "D:\\BLE-Dial-Reader\\Application\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.1.1\\res\\values-v21\\values-v21.xml",
                     "position": {
                         "startLine": 26,
                         "startColumn": 4,
@@ -475,7 +475,7 @@
                     "endOffset": 2724
                 },
                 "from": {
-                    "file": "/Users/mao/Desktop/BluetoothLE/Application/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.1.1/res/values-v21/values-v21.xml",
+                    "file": "D:\\BLE-Dial-Reader\\Application\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.1.1\\res\\values-v21\\values-v21.xml",
                     "position": {
                         "startLine": 27,
                         "startColumn": 4,
@@ -494,7 +494,7 @@
                     "endOffset": 2831
                 },
                 "from": {
-                    "file": "/Users/mao/Desktop/BluetoothLE/Application/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.1.1/res/values-v21/values-v21.xml",
+                    "file": "D:\\BLE-Dial-Reader\\Application\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.1.1\\res\\values-v21\\values-v21.xml",
                     "position": {
                         "startLine": 28,
                         "startColumn": 4,
@@ -513,7 +513,7 @@
                     "endOffset": 2934
                 },
                 "from": {
-                    "file": "/Users/mao/Desktop/BluetoothLE/Application/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.1.1/res/values-v21/values-v21.xml",
+                    "file": "D:\\BLE-Dial-Reader\\Application\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.1.1\\res\\values-v21\\values-v21.xml",
                     "position": {
                         "startLine": 29,
                         "startColumn": 4,
@@ -533,7 +533,7 @@
                     "endOffset": 3089
                 },
                 "from": {
-                    "file": "/Users/mao/Desktop/BluetoothLE/Application/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.1.1/res/values-v21/values-v21.xml",
+                    "file": "D:\\BLE-Dial-Reader\\Application\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.1.1\\res\\values-v21\\values-v21.xml",
                     "position": {
                         "startLine": 30,
                         "startColumn": 4,
@@ -554,7 +554,7 @@
                     "endOffset": 3260
                 },
                 "from": {
-                    "file": "/Users/mao/Desktop/BluetoothLE/Application/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.1.1/res/values-v21/values-v21.xml",
+                    "file": "D:\\BLE-Dial-Reader\\Application\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.1.1\\res\\values-v21\\values-v21.xml",
                     "position": {
                         "startLine": 32,
                         "startColumn": 4,
@@ -575,7 +575,7 @@
                     "endOffset": 3409
                 },
                 "from": {
-                    "file": "/Users/mao/Desktop/BluetoothLE/Application/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.1.1/res/values-v21/values-v21.xml",
+                    "file": "D:\\BLE-Dial-Reader\\Application\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.1.1\\res\\values-v21\\values-v21.xml",
                     "position": {
                         "startLine": 34,
                         "startColumn": 4,
@@ -596,7 +596,7 @@
                     "endOffset": 3574
                 },
                 "from": {
-                    "file": "/Users/mao/Desktop/BluetoothLE/Application/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.1.1/res/values-v21/values-v21.xml",
+                    "file": "D:\\BLE-Dial-Reader\\Application\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.1.1\\res\\values-v21\\values-v21.xml",
                     "position": {
                         "startLine": 36,
                         "startColumn": 4,
@@ -617,7 +617,7 @@
                     "endOffset": 3731
                 },
                 "from": {
-                    "file": "/Users/mao/Desktop/BluetoothLE/Application/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.1.1/res/values-v21/values-v21.xml",
+                    "file": "D:\\BLE-Dial-Reader\\Application\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.1.1\\res\\values-v21\\values-v21.xml",
                     "position": {
                         "startLine": 38,
                         "startColumn": 4,
@@ -638,7 +638,7 @@
                     "endOffset": 3882
                 },
                 "from": {
-                    "file": "/Users/mao/Desktop/BluetoothLE/Application/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.1.1/res/values-v21/values-v21.xml",
+                    "file": "D:\\BLE-Dial-Reader\\Application\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.1.1\\res\\values-v21\\values-v21.xml",
                     "position": {
                         "startLine": 40,
                         "startColumn": 4,
@@ -658,7 +658,7 @@
                     "endOffset": 4001
                 },
                 "from": {
-                    "file": "/Users/mao/Desktop/BluetoothLE/Application/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.1.1/res/values-v21/values-v21.xml",
+                    "file": "D:\\BLE-Dial-Reader\\Application\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.1.1\\res\\values-v21\\values-v21.xml",
                     "position": {
                         "startLine": 42,
                         "startColumn": 4,
@@ -678,7 +678,7 @@
                     "endOffset": 4373
                 },
                 "from": {
-                    "file": "/Users/mao/Desktop/BluetoothLE/Application/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.1.1/res/values-v21/values-v21.xml",
+                    "file": "D:\\BLE-Dial-Reader\\Application\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.1.1\\res\\values-v21\\values-v21.xml",
                     "position": {
                         "startLine": 43,
                         "startColumn": 4,
@@ -699,7 +699,7 @@
                     "endOffset": 4522
                 },
                 "from": {
-                    "file": "/Users/mao/Desktop/BluetoothLE/Application/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.1.1/res/values-v21/values-v21.xml",
+                    "file": "D:\\BLE-Dial-Reader\\Application\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.1.1\\res\\values-v21\\values-v21.xml",
                     "position": {
                         "startLine": 48,
                         "startColumn": 4,
@@ -720,7 +720,7 @@
                     "endOffset": 4671
                 },
                 "from": {
-                    "file": "/Users/mao/Desktop/BluetoothLE/Application/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.1.1/res/values-v21/values-v21.xml",
+                    "file": "D:\\BLE-Dial-Reader\\Application\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.1.1\\res\\values-v21\\values-v21.xml",
                     "position": {
                         "startLine": 50,
                         "startColumn": 4,
@@ -740,7 +740,7 @@
                     "endOffset": 4783
                 },
                 "from": {
-                    "file": "/Users/mao/Desktop/BluetoothLE/Application/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.1.1/res/values-v21/values-v21.xml",
+                    "file": "D:\\BLE-Dial-Reader\\Application\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.1.1\\res\\values-v21\\values-v21.xml",
                     "position": {
                         "startLine": 52,
                         "startColumn": 4,
@@ -759,7 +759,7 @@
                     "endOffset": 4930
                 },
                 "from": {
-                    "file": "/Users/mao/Desktop/BluetoothLE/Application/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.1.1/res/values-v21/values-v21.xml",
+                    "file": "D:\\BLE-Dial-Reader\\Application\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.1.1\\res\\values-v21\\values-v21.xml",
                     "position": {
                         "startLine": 53,
                         "startColumn": 4,
@@ -779,7 +779,7 @@
                     "endOffset": 5083
                 },
                 "from": {
-                    "file": "/Users/mao/Desktop/BluetoothLE/Application/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.1.1/res/values-v21/values-v21.xml",
+                    "file": "D:\\BLE-Dial-Reader\\Application\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.1.1\\res\\values-v21\\values-v21.xml",
                     "position": {
                         "startLine": 54,
                         "startColumn": 4,
@@ -800,7 +800,7 @@
                     "endOffset": 5230
                 },
                 "from": {
-                    "file": "/Users/mao/Desktop/BluetoothLE/Application/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.1.1/res/values-v21/values-v21.xml",
+                    "file": "D:\\BLE-Dial-Reader\\Application\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.1.1\\res\\values-v21\\values-v21.xml",
                     "position": {
                         "startLine": 56,
                         "startColumn": 4,
@@ -820,7 +820,7 @@
                     "endOffset": 5305
                 },
                 "from": {
-                    "file": "/Users/mao/Desktop/BluetoothLE/Application/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.1.1/res/values-v21/values-v21.xml",
+                    "file": "D:\\BLE-Dial-Reader\\Application\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.1.1\\res\\values-v21\\values-v21.xml",
                     "position": {
                         "startLine": 58,
                         "startColumn": 4,
@@ -839,7 +839,7 @@
                     "endOffset": 5394
                 },
                 "from": {
-                    "file": "/Users/mao/Desktop/BluetoothLE/Application/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.1.1/res/values-v21/values-v21.xml",
+                    "file": "D:\\BLE-Dial-Reader\\Application\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.1.1\\res\\values-v21\\values-v21.xml",
                     "position": {
                         "startLine": 59,
                         "startColumn": 4,
@@ -858,7 +858,7 @@
                     "endOffset": 5481
                 },
                 "from": {
-                    "file": "/Users/mao/Desktop/BluetoothLE/Application/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.1.1/res/values-v21/values-v21.xml",
+                    "file": "D:\\BLE-Dial-Reader\\Application\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.1.1\\res\\values-v21\\values-v21.xml",
                     "position": {
                         "startLine": 60,
                         "startColumn": 4,
@@ -877,7 +877,7 @@
                     "endOffset": 5582
                 },
                 "from": {
-                    "file": "/Users/mao/Desktop/BluetoothLE/Application/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.1.1/res/values-v21/values-v21.xml",
+                    "file": "D:\\BLE-Dial-Reader\\Application\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.1.1\\res\\values-v21\\values-v21.xml",
                     "position": {
                         "startLine": 61,
                         "startColumn": 4,
@@ -896,7 +896,7 @@
                     "endOffset": 5685
                 },
                 "from": {
-                    "file": "/Users/mao/Desktop/BluetoothLE/Application/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.1.1/res/values-v21/values-v21.xml",
+                    "file": "D:\\BLE-Dial-Reader\\Application\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.1.1\\res\\values-v21\\values-v21.xml",
                     "position": {
                         "startLine": 62,
                         "startColumn": 4,
@@ -916,7 +916,7 @@
                     "endOffset": 8753
                 },
                 "from": {
-                    "file": "/Users/mao/Desktop/BluetoothLE/Application/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.1.1/res/values-v21/values-v21.xml",
+                    "file": "D:\\BLE-Dial-Reader\\Application\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.1.1\\res\\values-v21\\values-v21.xml",
                     "position": {
                         "startLine": 63,
                         "startColumn": 4,
@@ -937,7 +937,7 @@
                     "endOffset": 8939
                 },
                 "from": {
-                    "file": "/Users/mao/Desktop/BluetoothLE/Application/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.1.1/res/values-v21/values-v21.xml",
+                    "file": "D:\\BLE-Dial-Reader\\Application\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.1.1\\res\\values-v21\\values-v21.xml",
                     "position": {
                         "startLine": 107,
                         "startColumn": 4,
@@ -958,7 +958,7 @@
                     "endOffset": 12019
                 },
                 "from": {
-                    "file": "/Users/mao/Desktop/BluetoothLE/Application/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.1.1/res/values-v21/values-v21.xml",
+                    "file": "D:\\BLE-Dial-Reader\\Application\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.1.1\\res\\values-v21\\values-v21.xml",
                     "position": {
                         "startLine": 110,
                         "startColumn": 4,
@@ -979,7 +979,7 @@
                     "endOffset": 12217
                 },
                 "from": {
-                    "file": "/Users/mao/Desktop/BluetoothLE/Application/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.1.1/res/values-v21/values-v21.xml",
+                    "file": "D:\\BLE-Dial-Reader\\Application\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.1.1\\res\\values-v21\\values-v21.xml",
                     "position": {
                         "startLine": 154,
                         "startColumn": 4,
@@ -1000,7 +1000,7 @@
                     "endOffset": 12417
                 },
                 "from": {
-                    "file": "/Users/mao/Desktop/BluetoothLE/Application/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.1.1/res/values-v21/values-v21.xml",
+                    "file": "D:\\BLE-Dial-Reader\\Application\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.1.1\\res\\values-v21\\values-v21.xml",
                     "position": {
                         "startLine": 157,
                         "startColumn": 4,
@@ -1021,7 +1021,7 @@
                     "endOffset": 12540
                 },
                 "from": {
-                    "file": "/Users/mao/Desktop/BluetoothLE/Application/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.1.1/res/values-v21/values-v21.xml",
+                    "file": "D:\\BLE-Dial-Reader\\Application\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.1.1\\res\\values-v21\\values-v21.xml",
                     "position": {
                         "startLine": 160,
                         "startColumn": 4,
@@ -1042,7 +1042,7 @@
                     "endOffset": 12663
                 },
                 "from": {
-                    "file": "/Users/mao/Desktop/BluetoothLE/Application/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.1.1/res/values-v21/values-v21.xml",
+                    "file": "D:\\BLE-Dial-Reader\\Application\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.1.1\\res\\values-v21\\values-v21.xml",
                     "position": {
                         "startLine": 162,
                         "startColumn": 4,
@@ -1063,7 +1063,7 @@
                     "endOffset": 12776
                 },
                 "from": {
-                    "file": "/Users/mao/Desktop/BluetoothLE/Application/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.1.1/res/values-v21/values-v21.xml",
+                    "file": "D:\\BLE-Dial-Reader\\Application\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.1.1\\res\\values-v21\\values-v21.xml",
                     "position": {
                         "startLine": 164,
                         "startColumn": 4,
@@ -1084,7 +1084,7 @@
                     "endOffset": 12959
                 },
                 "from": {
-                    "file": "/Users/mao/Desktop/BluetoothLE/Application/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.1.1/res/values-v21/values-v21.xml",
+                    "file": "D:\\BLE-Dial-Reader\\Application\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.1.1\\res\\values-v21\\values-v21.xml",
                     "position": {
                         "startLine": 166,
                         "startColumn": 4,
@@ -1105,7 +1105,7 @@
                     "endOffset": 13090
                 },
                 "from": {
-                    "file": "/Users/mao/Desktop/BluetoothLE/Application/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.1.1/res/values-v21/values-v21.xml",
+                    "file": "D:\\BLE-Dial-Reader\\Application\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.1.1\\res\\values-v21\\values-v21.xml",
                     "position": {
                         "startLine": 169,
                         "startColumn": 4,
@@ -1126,7 +1126,7 @@
                     "endOffset": 13291
                 },
                 "from": {
-                    "file": "/Users/mao/Desktop/BluetoothLE/Application/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.1.1/res/values-v21/values-v21.xml",
+                    "file": "D:\\BLE-Dial-Reader\\Application\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.1.1\\res\\values-v21\\values-v21.xml",
                     "position": {
                         "startLine": 171,
                         "startColumn": 4,
@@ -1146,7 +1146,7 @@
                     "endOffset": 13380
                 },
                 "from": {
-                    "file": "/Users/mao/Desktop/BluetoothLE/Application/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.1.1/res/values-v21/values-v21.xml",
+                    "file": "D:\\BLE-Dial-Reader\\Application\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.1.1\\res\\values-v21\\values-v21.xml",
                     "position": {
                         "startLine": 174,
                         "startColumn": 4,
@@ -1165,7 +1165,7 @@
                     "endOffset": 13491
                 },
                 "from": {
-                    "file": "/Users/mao/Desktop/BluetoothLE/Application/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.1.1/res/values-v21/values-v21.xml",
+                    "file": "D:\\BLE-Dial-Reader\\Application\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.1.1\\res\\values-v21\\values-v21.xml",
                     "position": {
                         "startLine": 175,
                         "startColumn": 4,
@@ -1185,7 +1185,7 @@
                     "endOffset": 13724
                 },
                 "from": {
-                    "file": "/Users/mao/Desktop/BluetoothLE/Application/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.1.1/res/values-v21/values-v21.xml",
+                    "file": "D:\\BLE-Dial-Reader\\Application\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.1.1\\res\\values-v21\\values-v21.xml",
                     "position": {
                         "startLine": 176,
                         "startColumn": 4,
@@ -1205,7 +1205,7 @@
                     "endOffset": 13825
                 },
                 "from": {
-                    "file": "/Users/mao/Desktop/BluetoothLE/Application/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.1.1/res/values-v21/values-v21.xml",
+                    "file": "D:\\BLE-Dial-Reader\\Application\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.1.1\\res\\values-v21\\values-v21.xml",
                     "position": {
                         "startLine": 179,
                         "startColumn": 4,
@@ -1224,7 +1224,7 @@
                     "endOffset": 13920
                 },
                 "from": {
-                    "file": "/Users/mao/Desktop/BluetoothLE/Application/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.1.1/res/values-v21/values-v21.xml",
+                    "file": "D:\\BLE-Dial-Reader\\Application\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.1.1\\res\\values-v21\\values-v21.xml",
                     "position": {
                         "startLine": 180,
                         "startColumn": 4,
@@ -1243,7 +1243,7 @@
                     "endOffset": 14043
                 },
                 "from": {
-                    "file": "/Users/mao/Desktop/BluetoothLE/Application/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.1.1/res/values-v21/values-v21.xml",
+                    "file": "D:\\BLE-Dial-Reader\\Application\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.1.1\\res\\values-v21\\values-v21.xml",
                     "position": {
                         "startLine": 181,
                         "startColumn": 4,
@@ -1262,7 +1262,7 @@
                     "endOffset": 14172
                 },
                 "from": {
-                    "file": "/Users/mao/Desktop/BluetoothLE/Application/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.1.1/res/values-v21/values-v21.xml",
+                    "file": "D:\\BLE-Dial-Reader\\Application\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.1.1\\res\\values-v21\\values-v21.xml",
                     "position": {
                         "startLine": 182,
                         "startColumn": 4,
@@ -1281,7 +1281,7 @@
                     "endOffset": 14289
                 },
                 "from": {
-                    "file": "/Users/mao/Desktop/BluetoothLE/Application/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.1.1/res/values-v21/values-v21.xml",
+                    "file": "D:\\BLE-Dial-Reader\\Application\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.1.1\\res\\values-v21\\values-v21.xml",
                     "position": {
                         "startLine": 183,
                         "startColumn": 4,
@@ -1301,7 +1301,7 @@
                     "endOffset": 14466
                 },
                 "from": {
-                    "file": "/Users/mao/Desktop/BluetoothLE/Application/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.1.1/res/values-v21/values-v21.xml",
+                    "file": "D:\\BLE-Dial-Reader\\Application\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.1.1\\res\\values-v21\\values-v21.xml",
                     "position": {
                         "startLine": 184,
                         "startColumn": 4,
@@ -1321,7 +1321,7 @@
                     "endOffset": 14565
                 },
                 "from": {
-                    "file": "/Users/mao/Desktop/BluetoothLE/Application/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.1.1/res/values-v21/values-v21.xml",
+                    "file": "D:\\BLE-Dial-Reader\\Application\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.1.1\\res\\values-v21\\values-v21.xml",
                     "position": {
                         "startLine": 187,
                         "startColumn": 4,
@@ -1341,7 +1341,7 @@
                     "endOffset": 14700
                 },
                 "from": {
-                    "file": "/Users/mao/Desktop/BluetoothLE/Application/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.1.1/res/values-v21/values-v21.xml",
+                    "file": "D:\\BLE-Dial-Reader\\Application\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.1.1\\res\\values-v21\\values-v21.xml",
                     "position": {
                         "startLine": 188,
                         "startColumn": 4,
@@ -1362,7 +1362,7 @@
                     "endOffset": 14843
                 },
                 "from": {
-                    "file": "/Users/mao/Desktop/BluetoothLE/Application/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.1.1/res/values-v21/values-v21.xml",
+                    "file": "D:\\BLE-Dial-Reader\\Application\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.1.1\\res\\values-v21\\values-v21.xml",
                     "position": {
                         "startLine": 190,
                         "startColumn": 4,
@@ -1383,7 +1383,7 @@
                     "endOffset": 14978
                 },
                 "from": {
-                    "file": "/Users/mao/Desktop/BluetoothLE/Application/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.1.1/res/values-v21/values-v21.xml",
+                    "file": "D:\\BLE-Dial-Reader\\Application\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.1.1\\res\\values-v21\\values-v21.xml",
                     "position": {
                         "startLine": 192,
                         "startColumn": 4,
@@ -1404,7 +1404,7 @@
                     "endOffset": 15097
                 },
                 "from": {
-                    "file": "/Users/mao/Desktop/BluetoothLE/Application/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.1.1/res/values-v21/values-v21.xml",
+                    "file": "D:\\BLE-Dial-Reader\\Application\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.1.1\\res\\values-v21\\values-v21.xml",
                     "position": {
                         "startLine": 194,
                         "startColumn": 4,
@@ -1425,7 +1425,7 @@
                     "endOffset": 15298
                 },
                 "from": {
-                    "file": "/Users/mao/Desktop/BluetoothLE/Application/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.1.1/res/values-v21/values-v21.xml",
+                    "file": "D:\\BLE-Dial-Reader\\Application\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.1.1\\res\\values-v21\\values-v21.xml",
                     "position": {
                         "startLine": 196,
                         "startColumn": 4,
@@ -1446,7 +1446,7 @@
                     "endOffset": 15417
                 },
                 "from": {
-                    "file": "/Users/mao/Desktop/BluetoothLE/Application/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.1.1/res/values-v21/values-v21.xml",
+                    "file": "D:\\BLE-Dial-Reader\\Application\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.1.1\\res\\values-v21\\values-v21.xml",
                     "position": {
                         "startLine": 200,
                         "startColumn": 4,
@@ -1466,7 +1466,7 @@
                     "endOffset": 15510
                 },
                 "from": {
-                    "file": "/Users/mao/Desktop/BluetoothLE/Application/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.1.1/res/values-v21/values-v21.xml",
+                    "file": "D:\\BLE-Dial-Reader\\Application\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.1.1\\res\\values-v21\\values-v21.xml",
                     "position": {
                         "startLine": 202,
                         "startColumn": 4,
@@ -1485,7 +1485,7 @@
                     "endOffset": 15621
                 },
                 "from": {
-                    "file": "/Users/mao/Desktop/BluetoothLE/Application/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.1.1/res/values-v21/values-v21.xml",
+                    "file": "D:\\BLE-Dial-Reader\\Application\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.1.1\\res\\values-v21\\values-v21.xml",
                     "position": {
                         "startLine": 203,
                         "startColumn": 4,
@@ -1504,7 +1504,7 @@
                     "endOffset": 15677
                 },
                 "from": {
-                    "file": "/Users/mao/Desktop/BluetoothLE/Application/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.1.1/res/values-v21/values-v21.xml",
+                    "file": "D:\\BLE-Dial-Reader\\Application\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.1.1\\res\\values-v21\\values-v21.xml",
                     "position": {
                         "startLine": 204,
                         "startColumn": 4,
@@ -1524,7 +1524,7 @@
                     "endOffset": 15784
                 },
                 "from": {
-                    "file": "/Users/mao/Desktop/BluetoothLE/Application/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.1.1/res/values-v21/values-v21.xml",
+                    "file": "D:\\BLE-Dial-Reader\\Application\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.1.1\\res\\values-v21\\values-v21.xml",
                     "position": {
                         "startLine": 205,
                         "startColumn": 4,
@@ -1545,7 +1545,7 @@
                     "endOffset": 15979
                 },
                 "from": {
-                    "file": "/Users/mao/Desktop/BluetoothLE/Application/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.1.1/res/values-v21/values-v21.xml",
+                    "file": "D:\\BLE-Dial-Reader\\Application\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.1.1\\res\\values-v21\\values-v21.xml",
                     "position": {
                         "startLine": 207,
                         "startColumn": 4,
@@ -1566,7 +1566,7 @@
                     "endOffset": 16090
                 },
                 "from": {
-                    "file": "/Users/mao/Desktop/BluetoothLE/Application/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.1.1/res/values-v21/values-v21.xml",
+                    "file": "D:\\BLE-Dial-Reader\\Application\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.1.1\\res\\values-v21\\values-v21.xml",
                     "position": {
                         "startLine": 211,
                         "startColumn": 4,
@@ -1587,7 +1587,7 @@
                     "endOffset": 16223
                 },
                 "from": {
-                    "file": "/Users/mao/Desktop/BluetoothLE/Application/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.1.1/res/values-v21/values-v21.xml",
+                    "file": "D:\\BLE-Dial-Reader\\Application\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.1.1\\res\\values-v21\\values-v21.xml",
                     "position": {
                         "startLine": 213,
                         "startColumn": 4,
@@ -1607,7 +1607,7 @@
                     "endOffset": 16318
                 },
                 "from": {
-                    "file": "/Users/mao/Desktop/BluetoothLE/Application/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.1.1/res/values-v21/values-v21.xml",
+                    "file": "D:\\BLE-Dial-Reader\\Application\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.1.1\\res\\values-v21\\values-v21.xml",
                     "position": {
                         "startLine": 215,
                         "startColumn": 4,
@@ -1626,7 +1626,7 @@
                     "endOffset": 16409
                 },
                 "from": {
-                    "file": "/Users/mao/Desktop/BluetoothLE/Application/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.1.1/res/values-v21/values-v21.xml",
+                    "file": "D:\\BLE-Dial-Reader\\Application\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.1.1\\res\\values-v21\\values-v21.xml",
                     "position": {
                         "startLine": 216,
                         "startColumn": 4,
@@ -1645,7 +1645,7 @@
                     "endOffset": 16500
                 },
                 "from": {
-                    "file": "/Users/mao/Desktop/BluetoothLE/Application/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.1.1/res/values-v21/values-v21.xml",
+                    "file": "D:\\BLE-Dial-Reader\\Application\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.1.1\\res\\values-v21\\values-v21.xml",
                     "position": {
                         "startLine": 217,
                         "startColumn": 4,
@@ -1664,7 +1664,7 @@
                     "endOffset": 16617
                 },
                 "from": {
-                    "file": "/Users/mao/Desktop/BluetoothLE/Application/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.1.1/res/values-v21/values-v21.xml",
+                    "file": "D:\\BLE-Dial-Reader\\Application\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.1.1\\res\\values-v21\\values-v21.xml",
                     "position": {
                         "startLine": 218,
                         "startColumn": 4,
@@ -1684,7 +1684,7 @@
                     "endOffset": 16756
                 },
                 "from": {
-                    "file": "/Users/mao/Desktop/BluetoothLE/Application/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.1.1/res/values-v21/values-v21.xml",
+                    "file": "D:\\BLE-Dial-Reader\\Application\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.1.1\\res\\values-v21\\values-v21.xml",
                     "position": {
                         "startLine": 219,
                         "startColumn": 4,
@@ -1705,7 +1705,7 @@
                     "endOffset": 17269
                 },
                 "from": {
-                    "file": "/Users/mao/Desktop/BluetoothLE/Application/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.1.1/res/values-v21/values-v21.xml",
+                    "file": "D:\\BLE-Dial-Reader\\Application\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.1.1\\res\\values-v21\\values-v21.xml",
                     "position": {
                         "startLine": 221,
                         "startColumn": 4,
@@ -1726,7 +1726,7 @@
                     "endOffset": 17794
                 },
                 "from": {
-                    "file": "/Users/mao/Desktop/BluetoothLE/Application/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.1.1/res/values-v21/values-v21.xml",
+                    "file": "D:\\BLE-Dial-Reader\\Application\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.1.1\\res\\values-v21\\values-v21.xml",
                     "position": {
                         "startLine": 231,
                         "startColumn": 4,
@@ -1747,7 +1747,7 @@
                     "endOffset": 18474
                 },
                 "from": {
-                    "file": "/Users/mao/Desktop/BluetoothLE/Application/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.1.1/res/values-v21/values-v21.xml",
+                    "file": "D:\\BLE-Dial-Reader\\Application\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.1.1\\res\\values-v21\\values-v21.xml",
                     "position": {
                         "startLine": 241,
                         "startColumn": 4,
@@ -1767,7 +1767,7 @@
                     "endOffset": 18531
                 },
                 "from": {
-                    "file": "/Users/mao/Desktop/BluetoothLE/Application/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.1.1/res/values-v21/values-v21.xml",
+                    "file": "D:\\BLE-Dial-Reader\\Application\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.1.1\\res\\values-v21\\values-v21.xml",
                     "position": {
                         "startLine": 251,
                         "startColumn": 4,
@@ -1786,7 +1786,7 @@
                     "endOffset": 18589
                 },
                 "from": {
-                    "file": "/Users/mao/Desktop/BluetoothLE/Application/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.1.1/res/values-v21/values-v21.xml",
+                    "file": "D:\\BLE-Dial-Reader\\Application\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.1.1\\res\\values-v21\\values-v21.xml",
                     "position": {
                         "startLine": 252,
                         "startColumn": 4,
@@ -1806,14 +1806,14 @@
                     "endOffset": 18670
                 },
                 "from": {
-                    "file": "/Users/mao/Desktop/BluetoothLE/Application/src/main/res/values-v21/base-template-styles.xml",
+                    "file": "D:\\BLE-Dial-Reader\\Application\\src\\main\\res\\values-v21\\base-template-styles.xml",
                     "position": {
                         "startLine": 20,
                         "startColumn": 4,
-                        "startOffset": 677,
+                        "startOffset": 697,
                         "endLine": 21,
                         "endColumn": 12,
-                        "endOffset": 753
+                        "endOffset": 774
                     }
                 }
             }

@@ -31,9 +31,15 @@ import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
+import android.widget.Button;
 import android.widget.ExpandableListView;
 import android.widget.SimpleExpandableListAdapter;
 import android.widget.TextView;
+
+import com.example.android.database.HttpConnector;
+
+import org.apache.http.NameValuePair;
+import org.apache.http.message.BasicNameValuePair;
 
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -76,12 +82,17 @@ public class DeviceControlActivity extends Activity {
     private int angle1 = 0;
     private int angle2 = 0;
     private int angle3 = 0;
+    private int unit = 0;
     private Double battery_voltage = 0.0;
     private int time_interval = 0;
     private int trigger_flag = 0;
+    private int version_flag = 0;
 
     private String[] unitLabel = {"mm","inch"};
     private String unit_label = "mm";
+
+    private HttpConnector httpConnector;
+    private Button button;
 
     // Code to manage Service lifecycle.
     private final ServiceConnection mServiceConnection = new ServiceConnection() {
@@ -207,7 +218,28 @@ public class DeviceControlActivity extends Activity {
         getActionBar().setDisplayHomeAsUpEnabled(true);
         Intent gattServiceIntent = new Intent(this, BluetoothLeService.class);
         bindService(gattServiceIntent, mServiceConnection, BIND_AUTO_CREATE);
+
+        httpConnector = new HttpConnector(getBaseContext());
+        button = (Button)this.findViewById(R.id.button);
+        button.setOnClickListener(sendData);
     }
+
+    private View.OnClickListener sendData = new View.OnClickListener() {
+        @Override
+        public void onClick(View v) {
+            if (v == button) {
+                ArrayList<NameValuePair> params = new ArrayList<NameValuePair>();
+                params.add(new BasicNameValuePair("reading", String.valueOf(readingValue)));
+                params.add(new BasicNameValuePair("unit", String.valueOf(unit)));
+                params.add(new BasicNameValuePair("triggerFlag", String.valueOf(trigger_flag)));
+                params.add(new BasicNameValuePair("angles", String.valueOf(angle1) + "," + String.valueOf(angle2) + "," + String.valueOf(angle3)));
+                params.add(new BasicNameValuePair("batteryVoltage", String.valueOf(battery_voltage)));
+                params.add(new BasicNameValuePair("versionFlag", String.valueOf(version_flag)));
+                params.add(new BasicNameValuePair("timeInterval", String.valueOf(time_interval)));
+                httpConnector.insert(params);
+            }
+        }
+    };
 
     @Override
     protected void onResume() {
@@ -279,8 +311,8 @@ public class DeviceControlActivity extends Activity {
                 this.angle1 = Integer.parseInt(tmp[4]);
                 this.angle2 = Integer.parseInt(tmp[5]);
                 this.angle3 = Integer.parseInt(tmp[6]);
-                this.battery_voltage = Double.parseDouble(tmp[7].substring(0,2));
-                int unit = Integer.parseInt(tmp[2]);
+                this.battery_voltage = Double.parseDouble(tmp[7].substring(0, 2));
+                this.unit = Integer.parseInt(tmp[2]);
                 unit_label = unitLabel[unit];
                 //Log.d(TAG,"Unit:"+tmp[2]);
                 unit_label = unitLabel[unit];

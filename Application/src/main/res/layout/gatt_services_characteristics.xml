@@ -122,7 +122,7 @@
         android:layout_height="wrap_content"
         android:gravity="bottom">
         <Button
-            android:text="Button"
+            android:text="傳送資料至資料庫"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:id="@+id/button" />
@@ -131,7 +131,6 @@
     <ExpandableListView android:id="@+id/gatt_services_list"
         android:layout_width="match_parent"
         android:layout_height="match_parent"/>
-
 
 
 </LinearLayout>

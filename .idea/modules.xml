@@ -3,7 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Application/Application.iml" filepath="$PROJECT_DIR$/Application/Application.iml" />
-      <module fileurl="file://$PROJECT_DIR$/BluetoothLE.iml" filepath="$PROJECT_DIR$/BluetoothLE.iml" />
+      <module fileurl="file://$PROJECT_DIR$/BLE-Dial-Reader.iml" filepath="$PROJECT_DIR$/BLE-Dial-Reader.iml" />
     </modules>
   </component>
 </project>
