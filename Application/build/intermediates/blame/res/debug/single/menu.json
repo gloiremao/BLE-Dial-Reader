@@ -1,10 +1,18 @@
 [
     {
-        "merged": "D:\\BLE-Dial-Reader\\Application\\build\\intermediates\\res\\merged\\debug\\menu\\gatt_services.xml",
-        "source": "D:\\BLE-Dial-Reader\\Application\\src\\main\\res\\menu\\gatt_services.xml"
+        "merged": "/Users/mao/Desktop/BluetoothLE/D:\\BLE-Dial-Reader\\Application\\build\\intermediates\\res\\merged\\debug\\menu\\gatt_services.xml",
+        "source": "/Users/mao/Desktop/BluetoothLE/D:\\BLE-Dial-Reader\\Application\\src\\main\\res\\menu\\gatt_services.xml"
     },
     {
-        "merged": "D:\\BLE-Dial-Reader\\Application\\build\\intermediates\\res\\merged\\debug\\menu\\main.xml",
-        "source": "D:\\BLE-Dial-Reader\\Application\\src\\main\\res\\menu\\main.xml"
+        "merged": "/Users/mao/Desktop/BluetoothLE/D:\\BLE-Dial-Reader\\Application\\build\\intermediates\\res\\merged\\debug\\menu\\main.xml",
+        "source": "/Users/mao/Desktop/BluetoothLE/D:\\BLE-Dial-Reader\\Application\\src\\main\\res\\menu\\main.xml"
+    },
+    {
+        "merged": "/Users/mao/Desktop/BluetoothLE/Application/build/intermediates/res/merged/debug/menu/main.xml",
+        "source": "/Users/mao/Desktop/BluetoothLE/Application/src/main/res/menu/main.xml"
+    },
+    {
+        "merged": "/Users/mao/Desktop/BluetoothLE/Application/build/intermediates/res/merged/debug/menu/gatt_services.xml",
+        "source": "/Users/mao/Desktop/BluetoothLE/Application/src/main/res/menu/gatt_services.xml"
     }
 ]

@@ -22,3 +22,4 @@ Screenshots
 <img src="screenshots/Screenshot_1.jpg" height="400" alt="Screenshot"/>
 <img src="screenshots/Screenshot_2.jpg" height="400" alt="Screenshot"/>
 <img src="screenshots/Screenshot_3.jpg" height="400" alt="Screenshot"/>
+<img src="screenshots/Screenshot_4.jpg" height="400" alt="Screenshot"/>
