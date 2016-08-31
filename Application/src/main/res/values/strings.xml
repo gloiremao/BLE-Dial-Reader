@@ -15,16 +15,20 @@
 -->
 <resources>
     <string name="ble_not_supported">BLE is not supported</string>
-    <string name="label_data">Data:</string>
+    <string name="label_data">Debug log:</string>
+    <string name="label_UUID">Service list:</string>
+    <string name="label_upload_button">Upload to Database</string>
     <string name="label_angle">Angle:</string>
     <string name="label_battery">Battery:</string>
     <string name="label_dial_reading">Reading:</string>
     <string name="label_device_address">Device address:</string>
+    <string name="label_device_model">Device Model:</string>
     <string name="label_state">State:</string>
     <string name="no_data">No data</string>
+    <string name="connected_waiting">Waiting for data ...</string>
     <string name="connected">Connected</string>
     <string name="disconnected">Disconnected</string>
-    <string name="title_devices">BLE Device Scan</string>
+    <string name="title_devices">Scanning BLE devices</string>
     <string name="error_bluetooth_not_supported">Bluetooth not supported.</string>
 
     <string name="unknown_device">Unknown device</string>

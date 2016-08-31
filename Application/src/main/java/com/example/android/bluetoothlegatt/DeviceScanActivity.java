@@ -77,7 +77,11 @@ public class DeviceScanActivity extends ListActivity {
             finish();
         }
 
+        //This is for Android API > 23
+        //Scanning devices need location permission
+        //permission is denied
         if( ContextCompat.checkSelfPermission(this , android.Manifest.permission.ACCESS_COARSE_LOCATION) != PackageManager.PERMISSION_GRANTED){
+            //Show a dialog to request for permission
             final AlertDialog.Builder builder = new AlertDialog.Builder(this);
             builder.setTitle("Require Location permission");
             builder.setMessage("Accept");
@@ -123,6 +127,7 @@ public class DeviceScanActivity extends ListActivity {
 
                         @Override
                         public void onDismiss(DialogInterface dialog) {
+                            Toast.makeText(DeviceScanActivity.this,"Unable to find device...",Toast.LENGTH_SHORT).show();
                         }
 
                     });
@@ -213,6 +218,7 @@ public class DeviceScanActivity extends ListActivity {
         startActivity(intent);
     }
 
+    //Scanning BLE Device
     private void scanLeDevice(final boolean enable) {
         if (enable) {
             // Stops scanning after a pre-defined scanx period.
@@ -328,21 +334,6 @@ public class DeviceScanActivity extends ListActivity {
         }
 
     };
-    // Device scan callback.
-    /*private BluetoothAdapter.LeScanCallback mLeScanCallback =
-            new BluetoothAdapter.LeScanCallback() {
-
-        @Override
-        public void onLeScan(final BluetoothDevice device, int rssi, byte[] scanRecord) {
-            runOnUiThread(new Runnable() {
-                @Override
-                public void run() {
-                    mLeDeviceListAdapter.addDevice(device);
-                    mLeDeviceListAdapter.notifyDataSetChanged();
-                }
-            });
-        }
-    };*/
 
     static class ViewHolder {
         TextView deviceName;

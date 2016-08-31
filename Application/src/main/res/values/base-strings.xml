@@ -17,7 +17,7 @@
 
 <resources>
 
-    <string name="app_name">Bluetooth Proxy</string>
+    <string name="app_name">BLE Reader</string>
     <string name="intro_message">
         <![CDATA[
         

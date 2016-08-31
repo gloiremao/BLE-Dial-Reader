@@ -27,6 +27,7 @@ import java.util.ArrayList;
  */
 public class HttpConnector {
     private Context application;
+    private String serverURL = "http://140.114.79.67/itriApp/insert.php";
     private ArrayList<NameValuePair> params;
     public HttpConnector(Context context) {
         this.application = context;
@@ -45,15 +46,14 @@ public class HttpConnector {
             Log.d("log_tag_DB", "start insert");
             try {
                 HttpClient httpClient = new DefaultHttpClient();
-                HttpPost httpPost = new HttpPost(
-                        "http://140.114.79.67/itriApp/insert.php");
+                HttpPost httpPost = new HttpPost(serverURL);
 
                 httpPost.setEntity(new UrlEncodedFormEntity(params, HTTP.UTF_8));
                 HttpResponse httpResponse = httpClient.execute(httpPost);
                 // view_account.setText(httpResponse.getStatusLine().toString());
                 HttpEntity httpEntity = httpResponse.getEntity();
                 InputStream inputStream = httpEntity.getContent();
-
+                // Receive response from server
                 BufferedReader bufReader = new BufferedReader(
                         new InputStreamReader(inputStream, "utf-8"), 8);
                 StringBuilder builder = new StringBuilder();

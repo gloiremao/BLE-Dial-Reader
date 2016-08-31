@@ -24,15 +24,20 @@ import java.util.HashMap;
 public class SampleGattAttributes {
     private static HashMap<String, String> attributes = new HashMap();
     public static String BLUEDIAL_SERVICE_UUID = "a495ff10-c5b1-4b44-b512-1370f02d74de";
+    public final static String  MODEL_SERVICE_UUID = "00001800-0000-1000-8000-00805f9b34fb";
+    public final static String MODEL_CHARACTERISTIC_UUID = "00002a00-0000-1000-8000-00805f9b34fb";
     public static String BLUEDIAL_Characteristic_UUID = "a495ff11-c5b1-4b44-b512-1370f02d74de";
     public static String NOTIFICATION_CHARACTERISTIC_CONFIG = "00002902-0000-1000-8000-00805f9b34fb";
+    public static String UPDATE_NAME = "UPDATE_MODEL_NAME";
 
 
     static {
         //Set service's name
-        attributes.put(BLUEDIAL_SERVICE_UUID, "Blue Dial Service");
+        attributes.put(BLUEDIAL_SERVICE_UUID, "Data streaming Service");
+        attributes.put(MODEL_SERVICE_UUID, "Model");
+        attributes.put(MODEL_CHARACTERISTIC_UUID,"Model Name");
         //set characteristic's name
-        attributes.put(BLUEDIAL_Characteristic_UUID, "Dial Date Characteristic");
+        attributes.put(BLUEDIAL_Characteristic_UUID, "Date streaming Characteristic");
     }
 
     public static String lookup(String uuid, String defaultName) {

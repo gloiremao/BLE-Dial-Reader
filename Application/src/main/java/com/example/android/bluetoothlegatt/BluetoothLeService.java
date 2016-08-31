@@ -42,6 +42,7 @@ import java.util.UUID;
  */
 public class BluetoothLeService extends Service {
     private final static String TAG = "BLEService";
+    private final static String DATATAG = "DATA";
 
     private BluetoothManager mBluetoothManager;
     private BluetoothAdapter mBluetoothAdapter;
@@ -64,10 +65,13 @@ public class BluetoothLeService extends Service {
     public final static String EXTRA_DATA =
             "com.example.bluetooth.le.EXTRA_DATA";
 
+
     public final static UUID UUID_BLUE_DIAL_SERVICE =
             UUID.fromString(SampleGattAttributes.BLUEDIAL_SERVICE_UUID);
     public final static UUID UUID_BLUEDIAL_DATA =
             UUID.fromString(SampleGattAttributes.BLUEDIAL_Characteristic_UUID);
+    public final static UUID UUID_MODEL_CHARA =
+            UUID.fromString(SampleGattAttributes.MODEL_CHARACTERISTIC_UUID);
 
     // Implements callback methods for GATT events that the app cares about.  For example,
     // connection change and services discovered.
@@ -116,7 +120,7 @@ public class BluetoothLeService extends Service {
         @Override
         public void onCharacteristicChanged(BluetoothGatt gatt,
                                             BluetoothGattCharacteristic characteristic) {
-            Log.d(TAG,"CharacteristicChanged");
+            Log.d(DATATAG,"CharacteristicChanged");
             broadcastUpdate(ACTION_DATA_AVAILABLE, characteristic);
         }
 
@@ -141,11 +145,11 @@ public class BluetoothLeService extends Service {
 
     private void broadcastUpdate(final String action,
                                  final BluetoothGattCharacteristic characteristic) {
-        final Intent intent = new Intent(action);
+        Intent intent = new Intent(action);
         byte[] data;
-        // This is special handling for the Heart Rate Measurement profile.  Data parsing is
+        // This is special handling for the Moticonics Sensor profile.  Data parsing is
         // carried out as per profile specifications:
-        // http://developer.bluetooth.org/gatt/characteristics/Pages/CharacteristicViewer.aspx?u=org.bluetooth.characteristic.heart_rate_measurement.xml
+        // Time Interval, Reading, Unit, Trigger Flag, Angle 1, Angle 2, Angle 3, Battery Voltage, Version Flag, \n
         if (UUID_BLUEDIAL_DATA.equals(characteristic.getUuid())) {
 
             data = characteristic.getValue();
@@ -156,7 +160,7 @@ public class BluetoothLeService extends Service {
                 //Log.d(TAG, "Received Data fragement: " + dialData);
                 if (dialData.contains("\n")){
                     dataString = dataString.concat(dialData);
-                    Log.d(TAG, "Received Data: " + dataString);
+                    Log.d(DATATAG, "Received Data: " + dataString);
                     intent.putExtra(EXTRA_DATA, dataString);
                     dataString = BuildConfig.FLAVOR;
                 } else {
@@ -164,21 +168,9 @@ public class BluetoothLeService extends Service {
                     return;
                 }
 
-
-                //dialData = new String(data,"UTF-16");
-                //Log.d(TAG, "Received Data 16: " + dialData);
-                //final StringBuilder stringBuilder = new StringBuilder(data.length);
-                //for(byte byteChar : data)
-                //    stringBuilder.append(byteChar);
-                //Log.d(TAG, "Received Data: " + stringBuilder.toString());
-
             } catch (UnsupportedEncodingException e) {
                 e.printStackTrace();
             }
-            //dialData = dialData.concat(new String(data).substring(0));
-
-            //final int heartRate = characteristic.getIntValue(format, 1);
-
 
         } else {
             // For all other profiles, writes the data formatted in HEX.

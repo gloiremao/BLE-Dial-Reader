@@ -17,6 +17,7 @@
 package com.example.android.bluetoothlegatt;
 
 import android.app.Activity;
+import android.bluetooth.BluetoothGatt;
 import android.bluetooth.BluetoothGattCharacteristic;
 import android.bluetooth.BluetoothGattService;
 import android.content.BroadcastReceiver;
@@ -35,6 +36,7 @@ import android.widget.Button;
 import android.widget.ExpandableListView;
 import android.widget.SimpleExpandableListAdapter;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import com.example.android.database.HttpConnector;
 
@@ -58,11 +60,14 @@ public class DeviceControlActivity extends Activity {
     public static final String EXTRAS_DEVICE_NAME = "DEVICE_NAME";
     public static final String EXTRAS_DEVICE_ADDRESS = "DEVICE_ADDRESS";
 
+    private UUID mModelNameUUID = UUID.fromString(SampleGattAttributes.MODEL_CHARACTERISTIC_UUID);
+
     private TextView mConnectionState;
     private TextView mDataField;
     private TextView mReadingField;
     private TextView mAngleField;
     private TextView mBatteryField;
+    private TextView mModelField;
     private String mDeviceName;
     private String mDeviceAddress;
     private ExpandableListView mGattServicesList;
@@ -70,6 +75,7 @@ public class DeviceControlActivity extends Activity {
     private ArrayList<ArrayList<BluetoothGattCharacteristic>> mGattCharacteristics =
             new ArrayList<ArrayList<BluetoothGattCharacteristic>>();
     private boolean mConnected = false;
+    private boolean mNotifiedService = false;
     private BluetoothGattCharacteristic mNotifyCharacteristic;
 
     private final String LIST_NAME = "NAME";
@@ -77,7 +83,6 @@ public class DeviceControlActivity extends Activity {
     public final static UUID UUID_BLUEDIAL_DATA =
             UUID.fromString(SampleGattAttributes.BLUEDIAL_Characteristic_UUID);
 
-    private boolean isNotified = false;
     private Double readingValue = 0.0;
     private int angle1 = 0;
     private int angle2 = 0;
@@ -111,10 +116,11 @@ public class DeviceControlActivity extends Activity {
         @Override
         public void onServiceDisconnected(ComponentName componentName) {
             mBluetoothLeService = null;
+            mNotifiedService = false;
         }
     };
 
-    // Handles various events fired by the Service.
+    // Handles various events fired by the BLE Service.
     // ACTION_GATT_CONNECTED: connected to a GATT server.
     // ACTION_GATT_DISCONNECTED: disconnected from a GATT server.
     // ACTION_GATT_SERVICES_DISCOVERED: discovered GATT services.
@@ -124,12 +130,14 @@ public class DeviceControlActivity extends Activity {
         @Override
         public void onReceive(Context context, Intent intent) {
             final String action = intent.getAction();
+            //Connect to GATT
             if (BluetoothLeService.ACTION_GATT_CONNECTED.equals(action)) {
                 mConnected = true;
                 updateConnectionState(R.string.connected);
                 invalidateOptionsMenu();
             } else if (BluetoothLeService.ACTION_GATT_DISCONNECTED.equals(action)) {
                 mConnected = false;
+                mNotifiedService = false;
                 updateConnectionState(R.string.disconnected);
                 invalidateOptionsMenu();
                 clearUI();
@@ -137,12 +145,16 @@ public class DeviceControlActivity extends Activity {
                 // Show all the supported services and characteristics on the user interface.
                 displayGattServices(mBluetoothLeService.getSupportedGattServices());
 
-
             } else if (BluetoothLeService.ACTION_DATA_AVAILABLE.equals(action)) {
+                //display data
                 displayData(intent.getStringExtra(BluetoothLeService.EXTRA_DATA));
             }
         }
     };
+
+    private void updateModel(String name) {
+        mModelField.setText(name);
+    }
 
     // If a given GATT characteristic is selected, check for supported features.  This sample
     // demonstrates 'Read' and 'Notify' features.  See
@@ -157,32 +169,7 @@ public class DeviceControlActivity extends Activity {
                         final BluetoothGattCharacteristic characteristic =
                                 mGattCharacteristics.get(groupPosition).get(childPosition);
                         Log.d(TAG,"Characteristic = " + characteristic.getUuid());
-                        /*final int charaProp = characteristic.getProperties();
-                        if ((charaProp | BluetoothGattCharacteristic.PROPERTY_READ) > 0) {
 
-                            // If there is an active notification on a characteristic, clear
-                            // it first so it doesn't update the data field on the user interface.
-                            if ( (mNotifyCharacteristic != null) ) {
-
-                                if(!isNotified) {
-                                    Log.d(TAG,"Read characteristic.");
-                                    mBluetoothLeService.setCharacteristicNotification(
-                                            mNotifyCharacteristic, false);
-                                    mNotifyCharacteristic = null;
-                                }
-
-                            }
-                            mBluetoothLeService.readCharacteristic(characteristic);
-                        }
-                        if ((charaProp | BluetoothGattCharacteristic.PROPERTY_NOTIFY) > 0) {
-                            Log.d(TAG,"Notify characteristic.");
-                            mNotifyCharacteristic = characteristic;
-                            if(!isNotified) {
-                                mBluetoothLeService.setCharacteristicNotification(
-                                        characteristic, true);
-                                isNotified = true;
-                            }
-                        }*/
                         mBluetoothLeService.readCharacteristic(characteristic);
                         return true;
                     }
@@ -213,6 +200,8 @@ public class DeviceControlActivity extends Activity {
         mReadingField = (TextView) findViewById(R.id.reading_value);
         mAngleField = (TextView) findViewById(R.id.angle_value);
         mBatteryField = (TextView) findViewById(R.id.battery_value);
+        mModelField = (TextView) findViewById(R.id.device_model);
+        updateModel(mDeviceName);
 
         getActionBar().setTitle(mDeviceName);
         getActionBar().setDisplayHomeAsUpEnabled(true);
@@ -220,6 +209,7 @@ public class DeviceControlActivity extends Activity {
         bindService(gattServiceIntent, mServiceConnection, BIND_AUTO_CREATE);
 
         httpConnector = new HttpConnector(getBaseContext());
+        //Upload to Database
         button = (Button)this.findViewById(R.id.button);
         button.setOnClickListener(sendData);
     }
@@ -227,17 +217,23 @@ public class DeviceControlActivity extends Activity {
     private View.OnClickListener sendData = new View.OnClickListener() {
         @Override
         public void onClick(View v) {
-            if (v == button) {
-                ArrayList<NameValuePair> params = new ArrayList<NameValuePair>();
-                params.add(new BasicNameValuePair("reading", String.valueOf(readingValue)));
-                params.add(new BasicNameValuePair("unit", String.valueOf(unit)));
-                params.add(new BasicNameValuePair("triggerFlag", String.valueOf(trigger_flag)));
-                params.add(new BasicNameValuePair("angles", String.valueOf(angle1) + "," + String.valueOf(angle2) + "," + String.valueOf(angle3)));
-                params.add(new BasicNameValuePair("batteryVoltage", String.valueOf(battery_voltage)));
-                params.add(new BasicNameValuePair("versionFlag", String.valueOf(version_flag)));
-                params.add(new BasicNameValuePair("timeInterval", String.valueOf(time_interval)));
-                httpConnector.insert(params);
+            if (v == button){
+                //check if data is coming
+                if (mNotifiedService) {
+                    ArrayList<NameValuePair> params = new ArrayList<NameValuePair>();
+                    params.add(new BasicNameValuePair("reading", String.valueOf(readingValue)));
+                    params.add(new BasicNameValuePair("unit", String.valueOf(unit)));
+                    params.add(new BasicNameValuePair("triggerFlag", String.valueOf(trigger_flag)));
+                    params.add(new BasicNameValuePair("angles", String.valueOf(angle1) + "," + String.valueOf(angle2) + "," + String.valueOf(angle3)));
+                    params.add(new BasicNameValuePair("batteryVoltage", String.valueOf(battery_voltage)));
+                    params.add(new BasicNameValuePair("versionFlag", String.valueOf(version_flag)));
+                    params.add(new BasicNameValuePair("timeInterval", String.valueOf(time_interval)));
+                    httpConnector.insert(params);
+                }
+            }else {
+                Toast.makeText( DeviceControlActivity.this ,"Please wait for the data streaming",Toast.LENGTH_LONG).show();
             }
+
         }
     };
 
@@ -304,6 +300,8 @@ public class DeviceControlActivity extends Activity {
 
     private void displayData(String data) {
         if (data != null) {
+            //Notice: This is design for motionics sensor
+            this.mNotifiedService = true;
             final String[] tmp = data.split(",");
 
             try {
@@ -324,8 +322,7 @@ public class DeviceControlActivity extends Activity {
             this.mAngleField.setText(String.format("%d,%d,%d",angle1,angle2,angle3));
             this.mBatteryField.setText(String.format("%.1f volt",battery_voltage));
 
-
-            //mDataField.setText(data);
+            mDataField.setText(data);
         }
     }
 
