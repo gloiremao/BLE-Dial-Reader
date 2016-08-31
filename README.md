@@ -28,11 +28,7 @@ Server Side:
 
 Screenshots
 --------------
-1. Scan for BLE devices 
 <img src="screenshots/Screenshot_1.jpg" height="400" alt="Screenshot"/>
-2. Connet to GATT server, waiting for notification
 <img src="screenshots/Screenshot_2.jpg" height="400" alt="Screenshot"/>
-3. Start data streaming
 <img src="screenshots/Screenshot_3.jpg" height="400" alt="Screenshot"/>
-4. Upload data to database
 <img src="screenshots/Screenshot_4.jpg" height="400" alt="Screenshot"/>
