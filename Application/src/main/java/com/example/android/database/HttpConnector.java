@@ -1,6 +1,7 @@
 package com.example.android.database;
 
 import android.content.Context;
+import android.media.audiofx.BassBoost;
 import android.os.Handler;
 import android.os.Looper;
 import android.os.Message;
@@ -21,13 +22,12 @@ import java.io.BufferedReader;
 import java.io.InputStream;
 import java.io.InputStreamReader;
 import java.util.ArrayList;
-
+import com.example.android.settings.Settings;
 /**
  * Created by YingYi on 2016/8/30.
  */
 public class HttpConnector {
     private Context application;
-    private String serverURL = "http://140.114.79.67/itriApp/insert.php";
     private ArrayList<NameValuePair> params;
     public HttpConnector(Context context) {
         this.application = context;
@@ -46,7 +46,7 @@ public class HttpConnector {
             Log.d("log_tag_DB", "start insert");
             try {
                 HttpClient httpClient = new DefaultHttpClient();
-                HttpPost httpPost = new HttpPost(serverURL);
+                HttpPost httpPost = new HttpPost(Settings.serverURL);
 
                 httpPost.setEntity(new UrlEncodedFormEntity(params, HTTP.UTF_8));
                 HttpResponse httpResponse = httpClient.execute(httpPost);

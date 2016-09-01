@@ -1,2 +1,2 @@
 <?xml version="1.0" encoding="utf-8"?>
-<merger version="3"><dataSet config="main"><source path="/Users/mao/Desktop/BluetoothLE/Application/tests/assets"/><source path="/Users/mao/Desktop/BluetoothLE/Application/build/generated/assets/shaders/androidTest/debug"/></dataSet></merger>
+<merger version="3"><dataSet config="main"><source path="/home/itri/BLE-Dial-Reader/Application/tests/assets"/><source path="/home/itri/BLE-Dial-Reader/Application/build/generated/assets/shaders/androidTest/debug"/></dataSet></merger>
