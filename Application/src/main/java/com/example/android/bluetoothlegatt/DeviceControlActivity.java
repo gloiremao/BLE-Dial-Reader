@@ -91,7 +91,7 @@ public class DeviceControlActivity extends Activity {
     private Double battery_voltage = 0.0;
     private int time_interval = 0;
     private int trigger_flag = 0;
-    private int version_flag = 0;
+    private String version_flag = "";
 
     private String[] unitLabel = {"mm","inch"};
     private String unit_label = "mm";
@@ -305,12 +305,18 @@ public class DeviceControlActivity extends Activity {
             final String[] tmp = data.split(",");
 
             try {
+                this.time_interval = Integer.parseInt(tmp[0].substring(tmp[0].length()-3,tmp[0].length()));
                 this.readingValue = Double.parseDouble(tmp[1]);
+                this.unit = Integer.parseInt(tmp[2]);
+                this.trigger_flag = Integer.parseInt(tmp[3].substring(0,1));
                 this.angle1 = Integer.parseInt(tmp[4]);
                 this.angle2 = Integer.parseInt(tmp[5]);
                 this.angle3 = Integer.parseInt(tmp[6]);
                 this.battery_voltage = Double.parseDouble(tmp[7].substring(0, 2));
-                this.unit = Integer.parseInt(tmp[2]);
+                this.version_flag = tmp[8].substring(0,1);
+                Log.d(TAG,String.format("%d,%f,%d,%d,%d,%d,%d,%.2f,%s",this.time_interval,this.readingValue,
+                        this.unit,this.trigger_flag,this.angle1,this.angle2,this.angle3,this.battery_voltage,this.version_flag));
+
                 unit_label = unitLabel[unit];
                 //Log.d(TAG,"Unit:"+tmp[2]);
                 unit_label = unitLabel[unit];
