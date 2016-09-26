@@ -1,10 +1,10 @@
 [
     {
-        "merged": "/home/itri/BLE-Dial-Reader/Application/build/intermediates/res/merged/debug/menu/gatt_services.xml",
-        "source": "/home/itri/BLE-Dial-Reader/Application/src/main/res/menu/gatt_services.xml"
+        "merged": "C:\\Users\\mao\\Documents\\GitHub\\BLE-Dial-Reader\\Application\\build\\intermediates\\res\\merged\\debug\\menu\\main.xml",
+        "source": "C:\\Users\\mao\\Documents\\GitHub\\BLE-Dial-Reader\\Application\\src\\main\\res\\menu\\main.xml"
     },
     {
-        "merged": "/home/itri/BLE-Dial-Reader/Application/build/intermediates/res/merged/debug/menu/main.xml",
-        "source": "/home/itri/BLE-Dial-Reader/Application/src/main/res/menu/main.xml"
+        "merged": "C:\\Users\\mao\\Documents\\GitHub\\BLE-Dial-Reader\\Application\\build\\intermediates\\res\\merged\\debug\\menu\\gatt_services.xml",
+        "source": "C:\\Users\\mao\\Documents\\GitHub\\BLE-Dial-Reader\\Application\\src\\main\\res\\menu\\gatt_services.xml"
     }
 ]
